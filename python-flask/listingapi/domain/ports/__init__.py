@@ -1,1 +1,0 @@
-from listingapi.domain.ports.listing_repository import ListingRepository
