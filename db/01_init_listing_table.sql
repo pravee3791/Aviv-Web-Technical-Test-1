@@ -19,7 +19,7 @@ CREATE TABLE IF NOT EXISTS public.listing
     updated_date         timestamp
 );
 
-CREATE TABLE IF NOT EXISTS public.price_updates
+CREATE TABLE IF NOT EXISTS public.price_updates_log
 (
     id             serial           primary key,
     listing_id     integer          not null,
